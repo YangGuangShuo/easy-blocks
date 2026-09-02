@@ -54,7 +54,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1547762828667784834}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bc838cbc2e148b3a5e7578d063ccb18, type: 3}
+  m_Script: {fileID: 11500000, guid: 223cad2a65216ff4a870814494df93a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -67,7 +67,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Retry
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 14928a98ac0086a4483452d618f1764c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ce994690431a8d64f88b0cbf25d6c069, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: d7d241a568d1d49f7870e33c7691faab, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6733866827775383241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bc838cbc2e148b3a5e7578d063ccb18, type: 3}
+  m_Script: {fileID: 11500000, guid: 223cad2a65216ff4a870814494df93a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -297,8 +297,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Almost there...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 14928a98ac0086a4483452d618f1764c, type: 2}
-  m_sharedMaterial: {fileID: 3722732180671858053, guid: 14928a98ac0086a4483452d618f1764c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ce994690431a8d64f88b0cbf25d6c069, type: 2}
+  m_sharedMaterial: {fileID: 3722732180671858053, guid: ce994690431a8d64f88b0cbf25d6c069, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7047522046394345396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16491c9ea2c249f488cb57b8663748be, type: 3}
+  m_Script: {fileID: 11500000, guid: f5982cff8bc048748b4576c219fc18b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fade: 1
@@ -519,7 +519,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 32a9cabe3e03e7e408a4fcfd4c18693d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86f276964d1204e498557fe528d310df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -904,7 +904,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9659348afa04bc6bb30eb6900f94b65, type: 3}
+  m_Script: {fileID: 11500000, guid: e5cbab0d80f0e8c4a811c5714c3bc589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &6964240723521876988
@@ -1036,7 +1036,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9659348afa04bc6bb30eb6900f94b65, type: 3}
+  m_Script: {fileID: 11500000, guid: e5cbab0d80f0e8c4a811c5714c3bc589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &8972291323993035576 stripped

@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 473854f2f6e34130bdf1c5d8a3ae3a55, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5c62d252369c90f4684b4e50b7de6878, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
@@ -126,8 +126,8 @@ MonoBehaviour:
   material: {fileID: -8486706915165785714}
   materialHashCode: -1340567009
   m_Version: 1.1.0
-  m_SourceFontFileGUID: 86eb40993433143a88b43308d2e6d830
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 86eb40993433143a88b43308d2e6d830, type: 3}
+  m_SourceFontFileGUID: e3296e2eeb9473b4bb9c1584b1e87bf2
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: e3296e2eeb9473b4bb9c1584b1e87bf2, type: 3}
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
   m_FaceInfo:
@@ -364,7 +364,7 @@ MonoBehaviour:
     m_GlyphIndex: 91
     m_Scale: 1
   m_AtlasTextures:
-  - {fileID: 2800000, guid: 473854f2f6e34130bdf1c5d8a3ae3a55, type: 3}
+  - {fileID: 2800000, guid: 5c62d252369c90f4684b4e50b7de6878, type: 3}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_ClearDynamicDataOnBuild: 0
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_FallbackFontAssetTable: []
   m_CreationSettings:
     sourceFontFileName: 
-    sourceFontFileGUID: 86eb40993433143a88b43308d2e6d830
+    sourceFontFileGUID: e3296e2eeb9473b4bb9c1584b1e87bf2
     pointSizeSamplingMode: 1
     pointSize: 165
     padding: 5
@@ -491,7 +491,7 @@ MonoBehaviour:
     atlasHeight: 512
     characterSetSelectionMode: 6
     characterSequence: 30-39,78
-    referencedFontAssetGUID: 70821e016df02461589e3308bbfa3152
+    referencedFontAssetGUID: c7bd69f76da6b354faeec53bbca2a0bf
     referencedTextAssetGUID: 
     fontStyle: 0
     fontStyleModifier: 0

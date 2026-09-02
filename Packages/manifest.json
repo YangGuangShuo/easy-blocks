@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.jeffjadulco.guidregenerator": "https://github.com/jeffjadulco/unity-guid-regenerator.git",
     "com.unity.ads": "4.16.4",
     "com.unity.collab-proxy": "2.13.6",
     "com.unity.feature.2d": "2.0.1",

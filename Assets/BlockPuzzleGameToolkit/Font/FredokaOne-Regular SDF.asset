@@ -2509,8 +2509,8 @@ MonoBehaviour:
     m_GlyphPairAdjustmentRecords: []
   fallbackFontAssets: []
   m_FallbackFontAssetTable:
-  - {fileID: 11400000, guid: 0dfe64dccfb1419084fb31e94bf08869, type: 2}
-  - {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 11400000, guid: a9bdd2f5907d47745aea21a0b5843284, type: 2}
+  - {fileID: 11400000, guid: ee9f66b25cdf33840b89a469469a9687, type: 2}
   m_CreationSettings:
     sourceFontFileName: 
     sourceFontFileGUID: 86eb40993433143a88b43308d2e6d830
@@ -2522,7 +2522,7 @@ MonoBehaviour:
     atlasHeight: 512
     characterSetSelectionMode: 6
     characterSequence: 20-7E,2026
-    referencedFontAssetGUID: 14928a98ac0086a4483452d618f1764c
+    referencedFontAssetGUID: ce994690431a8d64f88b0cbf25d6c069
     referencedTextAssetGUID: 
     fontStyle: 0
     fontStyleModifier: 0

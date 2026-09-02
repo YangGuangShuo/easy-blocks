@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60d7b8cc66824f168db82afe8c22a4b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a549a774ac14b9488f293c8051e9b2a, type: 3}
   m_Name: UnityBannerAdsHandler
   m_EditorClassIdentifier: 

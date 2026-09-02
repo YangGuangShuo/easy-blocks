@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 229059528153459db318609c350eea5f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6db20814d3517e84982ae5c943938635, type: 3}
   m_Name: IronsourceBannerHandler
   m_EditorClassIdentifier: 

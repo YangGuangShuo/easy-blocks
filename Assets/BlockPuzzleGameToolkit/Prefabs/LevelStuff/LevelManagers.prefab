@@ -42,7 +42,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 759837976169750085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e40a00e9a36a45f0bbc7a894cfab08c1, type: 3}
+  m_Script: {fileID: 11500000, guid: a330e0ef870404443aed29aee6df25a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentLevel: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2039421786775506908}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2f4bcf09221495aa6b1c73c755d27c4, type: 3}
+  m_Script: {fileID: 11500000, guid: b48adc5d5b2c3ac49959d51fafb9d6da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bonusAnimationPrefab: {fileID: 9128588434228675546, guid: 72d63649b5b5c43c2918b54c24343860, type: 3}

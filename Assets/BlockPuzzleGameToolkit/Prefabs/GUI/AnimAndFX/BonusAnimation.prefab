@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1de470aecb7d2413ea266b3d64e645a6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 664481f6796e06b41b591c4d8708ca88, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -86,7 +86,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3452328866089171554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c44e59f4d3c9447b93b79b0f44a70f6f, type: 3}
+  m_Script: {fileID: 11500000, guid: c37b36737b4ce6547a09f30e1e65d607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 4185319588522291050}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3452328866089171554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a5d7aa0a7564d4a95e550f34a56205f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e0c103bf47f16f449283b19d1236f69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   curveX:

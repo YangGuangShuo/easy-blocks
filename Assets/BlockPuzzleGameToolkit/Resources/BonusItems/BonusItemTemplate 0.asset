@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 296a000e50624ee092b6cb07efe88443, type: 3}
+  m_Script: {fileID: 11500000, guid: 62900217ac153f9479fa3551f62ea885, type: 3}
   m_Name: BonusItemTemplate 0
   m_EditorClassIdentifier: 
   prefab: {fileID: -5885164791484336147, guid: 0149407e18629409fbb4b2b0c362519d, type: 3}
-  sprite: {fileID: 21300000, guid: 1de470aecb7d2413ea266b3d64e645a6, type: 3}
+  sprite: {fileID: 21300000, guid: 664481f6796e06b41b591c4d8708ca88, type: 3}

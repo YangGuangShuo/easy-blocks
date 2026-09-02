@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfa8ef7804f154739aa403bca64ca5a8, type: 3}
+  m_Script: {fileID: 11500000, guid: ca2610d42f0205f4ea61b85182195198, type: 3}
   m_Name: ClassicStateHandler
   m_EditorClassIdentifier: 
