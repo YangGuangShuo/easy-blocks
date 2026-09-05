@@ -114,7 +114,7 @@ namespace BlockPuzzleGameToolkit.Scripts.Popups
 
             if (fader != null && popupStack.Count > 0 && popup.fade)
             {
-                fader.FadeIn(.997f, popup.FadeInDuration);
+                fader.FadeIn(.5f, popup.FadeInDuration);
             }
 
             // Initialize the delayed show
@@ -132,7 +132,7 @@ namespace BlockPuzzleGameToolkit.Scripts.Popups
             // Call fade in before starting coroutine
             if (fader != null  && popupPrefab.fade)
             {
-                fader.FadeIn(.997f, popupPrefab.FadeInDuration);
+                fader.FadeIn(.5f, popupPrefab.FadeInDuration);
             }
 
             // Start coroutine to delay instantiation

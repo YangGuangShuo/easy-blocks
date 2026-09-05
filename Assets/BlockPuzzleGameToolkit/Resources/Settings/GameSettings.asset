@@ -18,8 +18,8 @@ MonoBehaviour:
   enableInApps: 1
   enableLuckySpin: 1
   enablePreFailedPopup: 1
-  privacyPolicyUrl: https://docs.google.com/document/d/1xyvV9Fne3u58PU3yj9xirP4T9tmQBDQDiiFI_FhhgJc/edit?usp=sharing
-  skipConsentPopup: 0
+  privacyPolicyUrl: https://yangguangshuo.github.io/block-puzzle/privacy-en
+  skipConsentPopup: 1
   enableTimedMode: 1
   globalTimedModeSeconds: 60
   continueTimerBonus: 60

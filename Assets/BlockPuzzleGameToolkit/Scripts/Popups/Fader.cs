@@ -21,7 +21,7 @@ namespace BlockPuzzleGameToolkit.Scripts.Popups
     {
         public Image fader;
         private readonly float defaultFadeTime = .1f;
-        private readonly float maxValue = .997f;
+        private readonly float maxValue = .5f;
 
         public bool IsFaded()
         {

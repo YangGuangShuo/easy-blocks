@@ -186,7 +186,8 @@ namespace BlockPuzzleGameToolkit.Scripts.Popups
             StopInteration();
 
             DisablePause();
-            MenuManager.instance.ShowPopup<GDPR>();
+            // MenuManager.instance.ShowPopup<GDPR>();
+            Application.OpenURL(GameManager.instance.GameSettings.privacyPolicyUrl);
             Close();
         }
 

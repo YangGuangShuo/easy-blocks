@@ -145,16 +145,16 @@ MonoBehaviour:
     enable: 1
     testInEditor: 1
     platforms: 1
-    appId: ca-app-pub-1921802893067184~3779034969
+    appId: ca-app-pub-2639129736355357~5868256928
     adsHandler: {fileID: 11400000, guid: 266d29f9977384adb88786f8b31ea502, type: 2}
     adElements:
-    - placementId: ca-app-pub-3940256099942544/4411468910
+    - placementId: ca-app-pub-2639129736355357/9124975659
       adReference: {fileID: 11400000, guid: f9303f4b583464bc08f45f673b581f90, type: 2}
       popup:
         popup: {fileID: 4016055804716088334, guid: 42fecf35a1e774a20a5f0e45c3d3c10e, type: 3}
         showOnOpen: 1
         showOnClose: 0
-    - placementId: 'ca-app-pub-3940256099942544/1712485313 '
+    - placementId: ca-app-pub-2639129736355357/4363603567
       adReference: {fileID: 11400000, guid: c831bd9c00a134b8db57a0d96d34a238, type: 2}
       popup:
         popup: {fileID: 0}
@@ -183,10 +183,10 @@ MonoBehaviour:
     enable: 1
     testInEditor: 1
     platforms: 1
-    appId: ca-app-pub-1921802893067184~3779034969
+    appId: ca-app-pub-2639129736355357~5868256928
     adsHandler: {fileID: 11400000, guid: 2115921dfa5e14398a54b0ad2a801cec, type: 2}
     adElements:
-    - placementId: ca-app-pub-3940256099942544/2934735716
+    - placementId: ca-app-pub-2639129736355357/6565778428
       adReference: {fileID: 11400000, guid: 4396e62ba27584ef79ac362c4948ee63, type: 2}
       popup:
         popup: {fileID: 0}

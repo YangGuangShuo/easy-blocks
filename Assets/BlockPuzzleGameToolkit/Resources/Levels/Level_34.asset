@@ -112,7 +112,10 @@ MonoBehaviour:
     disabled: 
     highlighted: 
   levelType: {fileID: 11400000, guid: 042f8c10c07a44f1194830c606c0ffbb, type: 2}
+  enableTimer: 0
+  timerDuration: 120
   targetInstance:
   - targetScriptable: {fileID: 11400000, guid: a101d12b2edd14116a6ec86daa24704b, type: 2}
     amount: 200
+    totalAmount: 0
   emptyCellPercentage: 15.5
