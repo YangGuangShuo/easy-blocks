@@ -11303,6 +11303,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasPopups
       objectReference: {fileID: 0}
+    - target: {fileID: 11480254, guid: d558ac2114500491dba1776013aeb69e, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11480254, guid: d558ac2114500491dba1776013aeb69e, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 11480254, guid: d558ac2114500491dba1776013aeb69e, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 2340
+      objectReference: {fileID: 0}
     - target: {fileID: 22328746, guid: d558ac2114500491dba1776013aeb69e, type: 3}
       propertyPath: m_Camera
       value: 
@@ -17123,9 +17135,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1710, y: 2280}
+  m_ReferenceResolution: {x: 1080, y: 2340}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.76
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
