@@ -34,6 +34,18 @@ namespace BlockPuzzleGameToolkit.Scripts.Services
         private bool consentInfoUpdateInProgress = false;
         private bool adsInitialized = false;
 
+        private string _test_iosBannerID = "ca-app-pub-3940256099942544/2934735716";
+        private string _test_iosRewardVideoID = "ca-app-pub-3940256099942544/1712485313";
+        private string _test_iosInterstitialID = "ca-app-pub-3940256099942544/4411468910";
+
+        private string _test_androidBannerID = "ca-app-pub-3940256099942544/2934735716";
+        private string _test_androidRewardVideoID = "ca-app-pub-3940256099942544/1712485313";
+        private string _test_androidInterstitialID = "ca-app-pub-3940256099942544/4411468910";
+
+        private string _test_bannerID = "";
+        private string _test_rewardVideoID = "";
+        private string _test_tnterstitialID = "";
+
         public override void Awake()
         {
             base.Awake();
@@ -49,6 +61,17 @@ namespace BlockPuzzleGameToolkit.Scripts.Services
 
         private void PrepareAds()
         {
+#if UNITY_ANDROID
+                _test_bannerID = _test_androidBannerID;
+                _test_rewardVideoID = _test_androidRewardVideoID;
+                _test_tnterstitialID = _test_androidInterstitialID;
+#elif UNITY_IPHONE
+            _test_bannerID = _test_iosBannerID;
+            _test_rewardVideoID = _test_iosRewardVideoID;
+            _test_tnterstitialID = _test_iosInterstitialID;
+#endif
+
+
             platforms = GetPlatform();
             var adElements = Resources.Load<AdsSettings>("Settings/AdsSettings").adProfiles;
             interstitialSettings = Resources.Load<InterstitialSettings>("Settings/AdsInterstitialSettings");
@@ -65,6 +88,21 @@ namespace BlockPuzzleGameToolkit.Scripts.Services
                     adList.Add(t);
                     foreach (var adElement in t.adElements)
                     {
+                        if (ConfigManager.Inst.cfgType() == CfgType.test || ConfigManager.Inst.cfgType() == CfgType.review)
+                        {
+                            if (adElement.adReference.adType == EAdType.Banner)
+                            {
+                                adElement.placementId = _test_bannerID;
+                            } 
+                            else if (adElement.adReference.adType == EAdType.Interstitial)
+                            {
+                                adElement.placementId = _test_tnterstitialID;
+                            }
+                            else if (adElement.adReference.adType == EAdType.Rewarded)
+                            {
+                                adElement.placementId = _test_rewardVideoID;
+                            }
+                        }
                         var adUnit = new AdUnit { PlacementId = adElement.placementId, AdReference = adElement.adReference, AdsHandler = t.adsHandler };
                         adUnit.OnInitialized = placementId => adUnit.Load();
                         adUnits.Add(adUnit);

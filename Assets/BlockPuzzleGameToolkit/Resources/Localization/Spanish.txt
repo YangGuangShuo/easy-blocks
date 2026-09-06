@@ -60,3 +60,5 @@ TIMED : TIEMPO
 CONTINUEWITHEXTRASECONDS : EXTRA <color=yellow>+{continueTimerBonus}</color> seg
 YOUHAVETIMELEFT : Te quedan <color=yellow>{timeLeft}</color> min
 CONTINUEORLOSEPROGRESS : ¿Nuevas formas o perder el progreso?
+TIPS: Tips
+DOYOUWANTTONETWORK: Please check your network connection status.
