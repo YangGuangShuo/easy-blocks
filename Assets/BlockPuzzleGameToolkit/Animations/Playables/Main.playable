@@ -519,7 +519,7 @@ MonoBehaviour:
   m_Time: 2.4166666666666665
   m_Retroactive: 0
   m_EmitOnce: 0
-  m_Asset: {fileID: 11400000, guid: e6fdcc38cb48742098e23d3c9b09f9df, type: 2}
+  m_Asset: {fileID: 11400000, guid: d9217a0bcf5b63441b69b3d1b29550cf, type: 2}
 --- !u!74 &-2408877491543897562
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: a4f06d680ed534749ba7b1a686095dc9, type: 2}
+  m_Clip: {fileID: 7400000, guid: c99f935c739eeca448489e1326d2e643, type: 2}
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1

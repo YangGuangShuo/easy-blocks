@@ -625,7 +625,7 @@ Animator:
   m_GameObject: {fileID: 4368861512554213931}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a40c9c2c428a705468855dda352c0a68, type: 2}
+  m_Controller: {fileID: 9100000, guid: bddfeb35d6621444ea69b0a7a4bdbac9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1817,7 +1817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicButton: {fileID: 9060759029608065774}
   soundButton: {fileID: 1670369529976640935}
-  mixer: {fileID: 24100000, guid: e4017410999f44635baa4cb3bb8320b4, type: 2}
+  mixer: {fileID: 24100000, guid: dcb14e49808ec604e92a302059441c32, type: 2}
   musicParameter: musicVolume
   soundParameter: soundVolume
 --- !u!95 &8016891387234896929
@@ -1830,7 +1830,7 @@ Animator:
   m_GameObject: {fileID: 7811482148034564061}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cac0359e35eca487b8be1ca73b3d159d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 746bf22059f129a41b077b7df1855bc6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
