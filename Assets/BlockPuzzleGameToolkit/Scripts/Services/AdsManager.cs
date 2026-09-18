@@ -88,21 +88,21 @@ namespace BlockPuzzleGameToolkit.Scripts.Services
                     adList.Add(t);
                     foreach (var adElement in t.adElements)
                     {
-                        if (ConfigManager.Inst.cfgType() == CfgType.test || ConfigManager.Inst.cfgType() == CfgType.review)
-                        {
-                            if (adElement.adReference.adType == EAdType.Banner)
-                            {
-                                adElement.placementId = _test_bannerID;
-                            } 
-                            else if (adElement.adReference.adType == EAdType.Interstitial)
-                            {
-                                adElement.placementId = _test_tnterstitialID;
-                            }
-                            else if (adElement.adReference.adType == EAdType.Rewarded)
-                            {
-                                adElement.placementId = _test_rewardVideoID;
-                            }
-                        }
+                        // if (ConfigManager.Inst.cfgType() == CfgType.test || ConfigManager.Inst.cfgType() == CfgType.review)
+                        // {
+                        //     if (adElement.adReference.adType == EAdType.Banner)
+                        //     {
+                        //         adElement.placementId = _test_bannerID;
+                        //     } 
+                        //     else if (adElement.adReference.adType == EAdType.Interstitial)
+                        //     {
+                        //         adElement.placementId = _test_tnterstitialID;
+                        //     }
+                        //     else if (adElement.adReference.adType == EAdType.Rewarded)
+                        //     {
+                        //         adElement.placementId = _test_rewardVideoID;
+                        //     }
+                        // }
                         var adUnit = new AdUnit { PlacementId = adElement.placementId, AdReference = adElement.adReference, AdsHandler = t.adsHandler };
                         adUnit.OnInitialized = placementId => adUnit.Load();
                         adUnits.Add(adUnit);

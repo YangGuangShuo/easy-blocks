@@ -53,7 +53,8 @@ public class ConfigManager : MonoBehaviour
     public void ToGetConfig(UnityAction<bool> action)
     {
         unityAction = action;
-        StartCoroutine(getCfg());
+        // StartCoroutine(getCfg());
+        SceneManager.LoadSceneAsync("main");
     }
 
     IEnumerator getCfg()

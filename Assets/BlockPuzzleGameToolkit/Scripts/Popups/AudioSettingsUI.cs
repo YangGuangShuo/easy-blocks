@@ -56,10 +56,14 @@ namespace BlockPuzzleGameToolkit.Scripts.Popups
             if (playerPrefKey == "Sound")
             {
                 soundButton.value = enabledState ? 1 : 0;
+                soundButton.transform.Find("Off").gameObject.SetActive(!enabledState);
+                soundButton.transform.Find("On").gameObject.SetActive(enabledState);
             }
             else
             {
                 musicButton.value = enabledState ? 1 : 0;
+                musicButton.transform.Find("Off").gameObject.SetActive(!enabledState);
+                musicButton.transform.Find("On").gameObject.SetActive(enabledState);
             }
         }
 

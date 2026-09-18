@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6f90c35187d414e4a88d25ee8626fc20
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20000212
+  packageName: GUI Pro - Fantasy RPG
+  packageVersion: 1.0.0
+  assetPath: Assets/Layer Lab/GUI Pro-FantasyRPG/Extensions/UIParticle/UIAdditive.shader
+  uploadId: 0

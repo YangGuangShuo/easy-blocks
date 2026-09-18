@@ -156,6 +156,7 @@ namespace BlockPuzzleGameToolkit.Scripts.System
 
         private bool CheckDailyBonusConditions()
         {
+            return false;
             var today = DateTime.Today;
             var lastRewardDate = DateTime.Parse(PlayerPrefs.GetString("DailyBonusDay", today.Subtract(TimeSpan.FromDays(1)).ToString(CultureInfo.CurrentCulture)));
             return today.Date > lastRewardDate.Date && dailyBonusSettings.dailyBonusEnabled;
@@ -268,6 +269,7 @@ namespace BlockPuzzleGameToolkit.Scripts.System
 
         public bool IsTutorialMode()
         {
+        return false;
             return isTutorialMode;
         }
 

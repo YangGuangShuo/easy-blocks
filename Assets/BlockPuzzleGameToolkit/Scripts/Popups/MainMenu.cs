@@ -46,10 +46,10 @@ namespace BlockPuzzleGameToolkit.Scripts.Popups
             adventureMode.onClick.AddListener(PlayAdventureMode);
             settingsButton.onClick.AddListener(SettingsButtonClicked);
             luckySpin.onClick.AddListener(LuckySpinButtonClicked);
-            UpdateFreeSpinMarker();
+            // UpdateFreeSpinMarker();
             GameDataManager.LevelNum = PlayerPrefs.GetInt("Level", 1);
             var levelsCount = Resources.LoadAll<Level>("Levels").Length;
-            luckySpin.gameObject.SetActive(GameManager.instance.GameSettings.enableLuckySpin);
+            // luckySpin.gameObject.SetActive(GameManager.instance.GameSettings.enableLuckySpin);
             if(!GameManager.instance.GameSettings.enableTimedMode)
                 timedMode.gameObject.SetActive(false);
         }

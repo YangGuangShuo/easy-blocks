@@ -18,50 +18,53 @@ MonoBehaviour:
   - cells:
     - {fileID: 0}
     - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    bonusItems: 0000000000
-    disabled: 0101010101
-    highlighted: 0000000000
-  - cells:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    bonusItems: 0000000000
-    disabled: 0101010101
-    highlighted: 0000000000
-  - cells:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 85ebb1f53c8674f2894e5ebb8a375354, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     bonusItems: 0000000000
     disabled: 0000000000
-    highlighted: 0101010101
+    highlighted: 0000010000
   - cells:
     - {fileID: 0}
     - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 85ebb1f53c8674f2894e5ebb8a375354, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     bonusItems: 0000000000
-    disabled: 0101010101
-    highlighted: 0000000000
+    disabled: 0000000000
+    highlighted: 0000010000
   - cells:
     - {fileID: 0}
     - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 099709edcd4e3495eadd56804dc72e71, type: 2}
     - {fileID: 0}
     - {fileID: 0}
     bonusItems: 0000000000
-    disabled: 0101010101
-    highlighted: 0000000000
+    disabled: 0000000000
+    highlighted: 0000010000
+  - cells:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 099709edcd4e3495eadd56804dc72e71, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    bonusItems: 0000000000
+    disabled: 0000000000
+    highlighted: 0000010000
+  - cells:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 099709edcd4e3495eadd56804dc72e71, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    bonusItems: 0000000000
+    disabled: 0000000000
+    highlighted: 0000010000
   levelType: {fileID: 11400000, guid: 5b64c1586d9fc4496b7e95a7ec829258, type: 2}
+  enableTimer: 0
+  timerDuration: 120
   targetInstance:
   - targetScriptable: {fileID: 11400000, guid: a101d12b2edd14116a6ec86daa24704b, type: 2}
     amount: 1000
+    totalAmount: 0
   emptyCellPercentage: 10

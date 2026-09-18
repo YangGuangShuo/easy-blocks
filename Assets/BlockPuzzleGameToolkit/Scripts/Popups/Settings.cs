@@ -149,6 +149,8 @@ namespace BlockPuzzleGameToolkit.Scripts.Popups
 
         private void SaveVibrationLevel(float value)
         {
+            vibrationSlider.transform.Find("Off").gameObject.SetActive(value == 0.0f ? true : false);
+            vibrationSlider.transform.Find("On").gameObject.SetActive(value == 1.0f ? true : false);
             PlayerPrefs.SetFloat(VibrationPrefKey, value);
             PlayerPrefs.Save();
         }
